@@ -1,0 +1,124 @@
+
+@media (min-width: 850px) and (max-width: 1024px){
+    /* banner */
+    /* footer */
+    .list-payment{
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 551px) and (max-width: 849px){
+    /* header */
+    .top-nav__left{
+        display: none;
+    }
+    #icon-nav{
+        display: inherit;
+    }
+    .right-search,
+    .wall{
+        display: none;
+    }
+    section.menu{
+        display: none;
+    }
+    /* banner */
+    .slider{
+        padding-bottom: 100px;
+    }
+    .banner-sliders{
+        height: 400px;
+    }
+    .slider-text h1{
+        font-size:45px;
+    }
+    /* feature */
+    .feature__item{
+        margin-bottom: 12px;
+    }
+    /* bannerSale */
+    .bannerSale-text{
+        font-size: 50px;
+    }
+    .bannerSale-text span{
+        font-size: 50px;
+    }
+    /* footer */
+    .list-payment{
+        margin-top: 20px;
+    }
+    .margin-rp{
+        margin-bottom: 30px;
+    }
+     /* title-product */
+     .title-wrap h3{
+        font-size: 17px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 550px){
+    /* header */
+    .top-nav__left{
+        display: none;
+    }
+    #icon-nav{
+        display: inherit;
+    }
+    .right-search,
+    .wall{
+        display: none;
+    }
+    section.menu{
+        display: none;
+    } 
+    /* banner */
+    .slider{
+        padding-bottom: 150px;
+    }
+    .slider:nth-last-child(){
+        padding-bottom: unset;
+    }
+    .banner-sliders{
+        height: 350px;
+    }
+    .slider-text h1{
+        font-size: 35px;
+    }
+    .slider-text p{
+       font-size: 12px; 
+    }
+    /* feature */
+    .feature{
+        min-height: 300px;
+    }
+    .feature__item{
+        margin-bottom: 8px;
+    }
+    /* footer */
+    .margin-rp{
+        margin-bottom: 30px;
+    }
+    .mailUser-input{
+        padding: 15px 0;
+    }
+    .list-payment{
+        margin-bottom: 20px;
+    }
+    .footer-title{
+        margin-top: 15px;
+    }
+    /* bannerSale */
+    .bannerSale-text{
+        font-size: 40px;
+    }
+    .bannerSale-text span{
+        font-size: 40px;
+    }
+    /* title-product */
+    .title-wrap h3{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+}

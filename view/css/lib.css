@@ -1,0 +1,155 @@
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.col{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-1-6{
+    width: 16.6666667%;
+}
+
+.col-2-6{
+    width: 33.3333333%;
+}
+
+.col-3-6{
+    width: 50%;
+}
+
+.col-4-6{
+    width: 66.6666667%;
+}
+
+.col-5-6{
+    width: 83.3333333%;
+}
+
+.col-6-6{
+    width: 100%;
+}
+
+/* screen-small < 1200px */
+@media (min-width: 850px) and (max-width: 1024px){
+
+    .row{
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    .col{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .col-s-1-6{
+        width: 16.6666667%;
+    }
+    
+    .col-s-2-6{
+        width: 33.3333333%;
+    }
+    
+    .col-s-3-6{
+        width: 50%;
+    }
+    
+    .col-s-4-6{
+        width: 66.6666667%;
+    }
+    
+    .col-s-5-6{
+        width: 83.3333333%;
+    }
+    
+    .col-s-6-6{
+        width: 100%;
+    }
+    
+}
+
+/* tablet-mobile */
+@media (min-width: 551px) and (max-width: 849px){
+
+    .row{
+        margin-left: -6px;
+        margin-right: -6px;
+    }
+    .col{
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .col-t-1-6{
+        width: 16.6666667%;
+    }
+    
+    .col-t-2-6{
+        width: 33.3333333%;
+    }
+    
+    .col-t-3-6{
+        width: 50%;
+    }
+    
+    .col-t-4-6{
+        width: 66.6666667%;
+    }
+    
+    .col-t-5-6{
+        width: 83.3333333%;
+    }
+    
+    .col-t-6-6{
+        width: 100%;
+    }
+}
+
+@media (max-width: 550px){
+
+    .row{
+        margin-left: -4px;
+        margin-right: -4px;
+    }
+    .col{
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+    .col-m-1-6{
+        width: 16.6666667%;
+    }
+    
+    .col-m-2-6{
+        width: 33.3333333%;
+    }
+    
+    .col-m-3-6{
+        width: 50%;
+    }
+    
+    .col-m-4-6{
+        width: 66.6666667%;
+    }
+    
+    .col-m-5-6{
+        width: 83.3333333%;
+    }
+    
+    .col-m-6-6{
+        width: 100%;
+    }
+    
+}
+
